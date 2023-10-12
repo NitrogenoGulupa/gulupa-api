@@ -13,7 +13,7 @@ ALLOWED_FORMATS = ['.tiff', '.tif', '.jpeg', '.jpg']
 # Routes
 @app.route('/')
 def index():
-    return 'Welcome to my API!'
+    return 'Welcome to my API Gulupa!'
 
 # Route to upload images
 @app.route('/upload', methods=['POST'])
